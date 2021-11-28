@@ -42,6 +42,33 @@ mods.jei.JEI.removeAndHide(<spartanfire:pike_jungle_venom>);
 mods.jei.JEI.removeAndHide(<spartanfire:lance_jungle_venom>);
 mods.jei.JEI.removeAndHide(<spartanfire:mace_jungle_venom>);
 
+mods.jei.JEI.removeAndHide(<spartanfire:halberd_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:longsword_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:staff_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:pike_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:lance_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:mace_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:halberd_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:longsword_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:staff_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:pike_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:lance_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:mace_fire_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:halberd_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:longsword_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:staff_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:pike_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:lance_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:mace_ice_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:staff_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:pike_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:lance_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:mace_silver>);
 
 //Removes all non-adamantium master tier swordsperson weapons
 
@@ -50,3 +77,42 @@ mods.jei.JEI.removeAndHide(<spartanfire:mace_jungle_venom>);
 //Removes all non-jungle venom master tier ranger weapons
 
 //Removes all non-desert venom master tier rogue weapons
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_adamantium>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_onyx>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_desert>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_jungle>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_jungle_venom>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_mythril>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_fire_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_ice_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_silver>);
