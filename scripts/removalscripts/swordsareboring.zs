@@ -20,3 +20,6 @@ mods.jei.JEI.removeAndHide(<simpleores:mythril_sword>);
 mods.jei.JEI.removeAndHide(<simpleores:onyx_sword>);
 mods.jei.JEI.removeAndHide(<simpleores:adamantium_sword>);
 mods.jei.JEI.removeAndHide(<minecraft:bow>);
+mods.jei.JEI.removeAndHide(<iceandfire:dragonbone_bow>);
+mods.jei.JEI.removeAndHide(<simpleores:onyx_bow>);
+mods.jei.JEI.removeAndHide(<simpleores:mythril_bow>);

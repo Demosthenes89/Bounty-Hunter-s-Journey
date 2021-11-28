@@ -1,5 +1,4 @@
 //Removes all non-mythril master tier knight weapons
-
 mods.jei.JEI.removeAndHide(<spartancompat:halberd_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:staff_adamantium>);
@@ -124,6 +123,55 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_silver>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_silver>);
 
 //Removes all non-jungle venom master tier ranger weapons
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_onyx>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_desert>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_desert_venom>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_jungle>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_mythril>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_fire_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:longbow_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:crossbow_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:javelin_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_ice_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_silver>);
 
 //Removes all non-desert venom master tier rogue weapons
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_adamantium>);
@@ -166,3 +214,40 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_silver>);
 mods.jei.JEI.removeAndHide(<spartanfire:dagger_dragonbone>);
 mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
 mods.jei.JEI.removeAndHide(<spartanfire:boomerang_dragonbone>);
+
+//misc removals
+mods.jei.JEI.removeAndHide(<iceandfire:sea_serpent_arrow>);
+mods.jei.JEI.removeAndHide(<iceandfire:dragonbone_arrow>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:night_vision"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_night_vision"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:invisibility"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_invisibility"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:leaping"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_leaping"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_leaping"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:fire_resistance"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_fire_resistance"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:swiftness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_swiftness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_swiftness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:slowness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_slowness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:water_breathing"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_water_breathing"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:healing"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_healing"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:harming"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_harming"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:poison"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_poison"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_poison"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:regeneration"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_regeneration"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_regeneration"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strength"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_strength"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:strong_strength"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:weakness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:long_weakness"}));
+mods.jei.JEI.removeAndHide(<spartanweaponry:arrow_wood_tipped>.withTag({Potion: "minecraft:luck"}));
