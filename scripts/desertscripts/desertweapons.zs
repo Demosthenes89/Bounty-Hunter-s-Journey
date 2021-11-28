@@ -1,7 +1,12 @@
-mods.ItemStages.addItemStage("Novice_Rogue", <ore:NoviceDesert>);
-mods.ItemStages.addItemStage("Apprentice_Rogue", <ore:ApprenticeDesert>);
-mods.ItemStages.addItemStage("Master_Rogue", <ore:MasterDesert>);
-mods.ItemStages.addItemStage("Legendary_Rogue", <ore:LegendDesert>);
+//mods.ItemStages.addItemStage("Novice_Rogue", <ore:NoviceDesert>);
+//mods.ItemStages.addItemStage("Apprentice_Rogue", <ore:ApprenticeDesert>);
+//mods.ItemStages.addItemStage("Master_Rogue", <ore:MasterDesert>);
+//mods.ItemStages.addItemStage("Legendary_Rogue", <ore:LegendDesert>);
+
+mods.ItemStages.addItemStage("debugR", <ore:NoviceDesert>);
+mods.ItemStages.addItemStage("debugR", <ore:ApprenticeDesert>);
+mods.ItemStages.addItemStage("debugR", <ore:MasterDesert>);
+mods.ItemStages.addItemStage("debugR", <ore:LegendDesert>);
 
 mods.ItemStages.setUnfamiliarName("Novice Weapon", <ore:NoviceDesert>);
 mods.ItemStages.setUnfamiliarName("Apprentice Weapon", <ore:ApprenticeDesert>);

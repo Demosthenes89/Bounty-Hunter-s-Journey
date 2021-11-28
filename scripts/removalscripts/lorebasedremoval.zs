@@ -73,6 +73,55 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:mace_silver>);
 //Removes all non-adamantium master tier swordsperson weapons
 
 //Removes all non-dragonbone master tier berserker weapons
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_adamantium>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_onyx>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_desert>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_desert_venom>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_jungle>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_jungle_venom>);
+
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_mythril>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_fire_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:greatsword_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:hammer_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:battleaxe_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:warhammer_ice_dragonbone>);
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_silver>);
 
 //Removes all non-jungle venom master tier ranger weapons
 
@@ -101,9 +150,6 @@ mods.jei.JEI.removeAndHide(<spartancompat:dagger_mythril>);
 mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
 mods.jei.JEI.removeAndHide(<spartancompat:boomerang_mythril>);
 
-mods.jei.JEI.removeAndHide(<spartanfire:dagger_dragonbone>);
-mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
-mods.jei.JEI.removeAndHide(<spartanfire:boomerang_dragonbone>);
 
 mods.jei.JEI.removeAndHide(<spartanfire:dagger_fire_dragonbone>);
 mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonbone>);
@@ -116,3 +162,7 @@ mods.jei.JEI.removeAndHide(<spartanfire:boomerang_ice_dragonbone>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_silver>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_silver>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_silver>);
+
+mods.jei.JEI.removeAndHide(<spartanfire:dagger_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:boomerang_dragonbone>);
