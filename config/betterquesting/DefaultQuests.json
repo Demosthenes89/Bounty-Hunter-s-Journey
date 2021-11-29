@@ -101,7 +101,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Nitty-Gritty",
-          "desc:8": "§fNow that you\u0027ve tried on your gear, lets get you informed of the basics of the Guild. The guild has a total of five disciplines: the §6rogues§f, most comfortable in the desert biomes; the §7knights§f, most comfortable in the forests and plains; the §9§arangers§f, most comfortable in the swamps and jungles; the §b§9swordsmen§f, most comfortable in the oceans; and the §bberserkers§f, most comfortable in the frozen biomes. Each discipline has its own unique set of weapons and armor, though all can be mastered in time. Leveling up a discipline requires you to slay mobs endemic to your chosen region, and each level you unlock will attract stronger and stronger mobs in each region."
+          "desc:8": "§fNow that you\u0027ve tried on your gear, lets get you informed of the basics of the Guild. The guild has a total of five disciplines: the §6rogues§f, most comfortable in the desert biomes; the §7knights§f, most comfortable in the forests and plains; the §9§arangers§f, most comfortable in the swamps and jungles; the §b§9duelists§f, most comfortable in the oceans; and the §bberserkers§f, most comfortable in the frozen biomes. Each discipline has its own unique set of weapons and armor, though all can be mastered in time. Leveling up a discipline requires you to slay mobs endemic to your chosen region, and each level you unlock will attract stronger and stronger mobs in each region."
         }
       },
       "tasks:9": {
@@ -327,8 +327,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Discipline: Swordsperson",
-          "desc:8": "§0The §6§f§6§f§e§e§f§6§1swordsperson §f§0§f§0discipline prefers the adventure of the high seas, and fights with bladed weapons, such as rapiers, sabers, and glaives. Due to the relative lack of creatures to slay in the oceans, however,§0 swordsmen may also hone their patience and complete bounties through fishing."
+          "name:8": "Discipline: Duelist",
+          "desc:8": "§f§0The §6§f§6§f§e§e§f§6§1duelist §§§0d§f§d§0i§f§0scipline prefers the adventure of the high seas, and fights with bladed weapons, such as rapiers, sabers, and glaives. Due to the relative lack of creatures to slay in the oceans, howeve§f§0r,§0§0 §f§0duelists may a§f§0lso hone their patience and complete bounties through fishi§f§0ng.\"\n"
         }
       },
       "tasks:9": {
@@ -2911,7 +2911,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
