@@ -11,8 +11,7 @@
 /saves
 /usercache.json
 /usernamecache.json
-config/journeymap
-journeymap/journeymap.log
+/journeymap
 config/splash.properties
 config/jei/worldSettings.cfg
 config/jei

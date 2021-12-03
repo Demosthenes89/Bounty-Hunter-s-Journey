@@ -7,6 +7,7 @@ recipes.removeByRecipeName("simpleores:mythril_rod");
 recipes.removeByRecipeName("simpleores:onyx_rod");
 //Don't touch me!
 //#Add
+recipes.add(<contenttweaker:enchanting_scroll>, [[<minecraft:paper>, <ore:ListEssence>, null],[<ore:ListEssence>, <ore:ListEssence>, null], [null, null, null]]);
 recipes.addShapeless("enchantedMetal",<simpleores:mythril_ingot> * 2, [<contenttweaker:lapis_shards>,<iceandfire:silver_ingot>,<minecraft:iron_ingot>,<contenttweaker:lapis_shards>]);
 recipes.addShapeless("powerfulAlloy",<simpleores:adamantium_ingot> * 2, [<contenttweaker:strange_metal>,<minecraft:gold_ingot>,<minecraft:iron_ingot>,<contenttweaker:strange_metal>]);
 recipes.addShaped("mythril_rod",<simpleores:mythril_rod> * 3, [[null, <simpleores:mythril_ingot>, <spartanweaponry:material>],[<simpleores:mythril_ingot>, <spartanweaponry:material>, <simpleores:mythril_ingot>], [<spartanweaponry:material>, <simpleores:mythril_ingot>, null]]);
