@@ -1,6 +1,6 @@
 {
   "name": "guardian",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "monster",
     "raider",

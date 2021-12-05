@@ -1,13 +1,13 @@
 {
   "name": "vespidqueen",
-  "creatureType": "arthropod",
+  "creatureType": "insect",
   "groups": [
     "predator"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVespidQueen",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelVespidQueen",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -50,6 +50,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 5,
   "eggBackColor": "#223300",
   "eggForeColor": "#FFCC00",
   "subspecies": [

@@ -1,6 +1,6 @@
 {
   "name": "opportunist",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid",
     "critter"

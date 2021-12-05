@@ -1,6 +1,6 @@
 {
   "name": "hardy",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [],
   "pack": [],
   "wary": [],

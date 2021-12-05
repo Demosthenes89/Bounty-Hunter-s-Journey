@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGeonach",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGeonach",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [],
@@ -42,6 +42,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 1,
+  "bagSize": 5,
   "eggBackColor": "#443333",
   "eggForeColor": "#BBBBCC",
   "subspecies": [

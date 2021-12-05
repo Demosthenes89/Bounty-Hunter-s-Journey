@@ -1,6 +1,6 @@
 {
   "name": "raider",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid"
   ],

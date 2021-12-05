@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySkylus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSkylus",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -51,6 +51,7 @@
   "pierce": 1,
   "sight": 32,
   "knockbackResistance": 0.5,
+  "bagSize": 5,
   "eggBackColor": "#FFCCDD",
   "eggForeColor": "#BB2299",
   "subspecies": [
@@ -77,7 +78,7 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": false,
+  "summonable": true,
   "tameable": false,
   "mountable": false,
   "summonCost": 3,

@@ -1,6 +1,6 @@
 {
   "name": "predator",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "animal",
     "critter",

@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityFeradon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelFeradon",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -52,6 +52,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#e4a23d",
   "eggForeColor": "#552d0e",
   "subspecies": [

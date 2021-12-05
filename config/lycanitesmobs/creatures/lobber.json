@@ -1,13 +1,13 @@
 {
   "name": "lobber",
-  "creatureType": "brute",
+  "creatureType": "golem",
   "groups": [
     "inferno"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLobber",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLobber",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -46,6 +46,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
   "eggBackColor": "#330011",
   "eggForeColor": "#FF5500",
   "subspecies": [

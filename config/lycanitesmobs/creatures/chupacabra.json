@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityChupacabra",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelChupacabra",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -17,7 +17,7 @@
     "dimensionIds": [
       -1
     ],
-    "dimensionListType": "whitelist",
+    "dimensionListType": "blacklist",
     "ignoreBiome": true,
     "biomeTags": [],
     "spawnWeight": 8,
@@ -46,6 +46,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 250,
   "eggBackColor": "#36251b",
   "eggForeColor": "#aa8c63",
   "subspecies": [
@@ -77,10 +79,10 @@
     "piscivore",
     "insectivore"
   ],
-  "peaceful": false,
-  "farmable": false,
-  "summonable": true,
-  "tameable": false,
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,

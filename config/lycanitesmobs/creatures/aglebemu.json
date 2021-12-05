@@ -1,13 +1,13 @@
 {
   "name": "aglebemu",
-  "creatureType": "aquatic",
+  "creatureType": "amphibian",
   "groups": [
     "monster"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAglebemu",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAglebemu",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -52,6 +52,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
   "eggBackColor": "#047f0a",
   "eggForeColor": "#c3a85b",
   "subspecies": [

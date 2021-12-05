@@ -1,6 +1,6 @@
 {
   "name": "monster",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid"
   ],

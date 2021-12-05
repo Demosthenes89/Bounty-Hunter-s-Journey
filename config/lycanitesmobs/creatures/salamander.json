@@ -1,14 +1,14 @@
 {
   "name": "salamander",
-  "creatureType": "beast",
+  "creatureType": "amphibian",
   "groups": [
     "predator",
     "inferno"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySalamander",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSalamander",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -47,6 +47,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#AACC00",
   "eggForeColor": "#DDFF22",
   "subspecies": [

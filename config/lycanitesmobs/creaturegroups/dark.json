@@ -1,6 +1,6 @@
 {
   "name": "dark",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "light"
   ],

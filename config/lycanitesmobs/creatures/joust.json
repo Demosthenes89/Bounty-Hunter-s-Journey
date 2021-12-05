@@ -1,13 +1,13 @@
 {
   "name": "joust",
-  "creatureType": "arthropod",
+  "creatureType": "insect",
   "groups": [
     "animal",
     "hardy"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJoust",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelJoust",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -55,6 +55,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 5,
   "eggBackColor": "#FF9900",
   "eggForeColor": "#FFFF00",
   "subspecies": [

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityArix",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelArix",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -53,6 +53,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 250,
   "eggBackColor": "#DDDDFF",
   "eggForeColor": "#9999FF",
   "subspecies": [
@@ -80,9 +82,9 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
-  "perchable": false,
+  "perchable": true,
   "summonCost": 2,
   "dungeonLevel": 1,
   "drops": [

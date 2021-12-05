@@ -1,6 +1,6 @@
 {
   "name": "nature",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid",
     "inferno"

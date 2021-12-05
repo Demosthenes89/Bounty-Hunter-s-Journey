@@ -576,23 +576,35 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "The Path to Legend (Rouge)",
+          "name:8": "The Path to Legend I (Rogue)",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "10:10": {
       "questID:3": 10,
       "preRequisites:11": [
-        7,
-        13,
-        14,
-        15,
-        16,
-        17,
-        19
+        7
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -629,7 +641,7 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 20,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -886,7 +898,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 2,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1080,7 +1092,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1277,7 +1289,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1469,7 +1481,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 2,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1658,7 +1670,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1668,6 +1680,196 @@
       }
     },
     "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mod_lavacow:curseweave_cloth",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 0,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Husk",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 35.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "8:10": {
+                "Base:6": 0.05113559309942226,
+                "Name:8": "zombie.spawnReinforcements"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:husk",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7122763781333117356,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 6.163223,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -2218082883692116125,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:husk",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "19:10": {
       "questID:3": 19,
       "preRequisites:11": [
         7,
@@ -1910,7 +2112,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1919,7 +2121,7 @@
         }
       }
     },
-    "19:10": {
+    "20:10": {
       "questID:3": 20,
       "preRequisites:11": [
         8,
@@ -1956,12 +2158,10 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "20:10": {
+    "21:10": {
       "questID:3": 21,
       "preRequisites:11": [
-        10,
-        22,
-        23
+        10
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1998,7 +2198,7 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 40,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2009,7 +2209,7 @@
       },
       "rewards:9": {}
     },
-    "21:10": {
+    "22:10": {
       "questID:3": 22,
       "preRequisites:11": [
         10
@@ -2195,7 +2395,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 6,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2204,7 +2404,7 @@
         }
       }
     },
-    "22:10": {
+    "23:10": {
       "questID:3": 23,
       "preRequisites:11": [
         10
@@ -2380,7 +2580,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 5,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2389,11 +2589,9 @@
         }
       }
     },
-    "23:10": {
+    "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        26,
-        25,
         21
       ],
       "properties:10": {
@@ -2431,7 +2629,7 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 100,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2442,7 +2640,7 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
+    "25:10": {
       "questID:3": 25,
       "preRequisites:11": [
         21
@@ -2690,7 +2888,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2699,7 +2897,7 @@
         }
       }
     },
-    "25:10": {
+    "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
         21
@@ -2878,7 +3076,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2887,12 +3085,10 @@
         }
       }
     },
-    "26:10": {
+    "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
-        24,
-        29,
-        28
+        24
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2929,7 +3125,7 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 250,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2940,7 +3136,7 @@
       },
       "rewards:9": {}
     },
-    "27:10": {
+    "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
         24
@@ -3116,7 +3312,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 15,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3125,7 +3321,7 @@
         }
       }
     },
-    "28:10": {
+    "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
         24
@@ -3315,7 +3511,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:emerald",
+              "id:8": "contenttweaker:forest_xp",
               "Count:3": 40,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3324,7 +3520,7 @@
         }
       }
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
         27
@@ -3511,7 +3707,7 @@
         }
       }
     },
-    "30:10": {
+    "31:10": {
       "questID:3": 31,
       "preRequisites:11": [
         27
@@ -3696,6 +3892,3647 @@
           }
         }
       }
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mod_lavacow:chitin",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 0,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Weta",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Sitting:1": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 12.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mod_lavacow:weta",
+            "state:1": 0,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -9168468156852439698,
+            "Health:5": 12.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.9333086,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "OwnerUUID:8": "",
+            "UUIDMost:4": 4974783027057870192,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 2,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mod_lavacow:weta",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "lycanitesmobs:undeadspawn",
+            "Count:3": 1,
+            "tag:10": {
+              "CreatureInfoSpawnEgg:10": {
+                "creaturename:8": "cryptkeeper"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 0,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Cryptkeeper",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Size:6": 1.0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 25.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.24,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.defense"
+              },
+              "8:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "9:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.attackSpeed"
+              },
+              "10:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.rangedSpeed"
+              }
+            },
+            "Invulnerable:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Subspecies:1": 0,
+            "ForceNoDespawn:1": 0,
+            "FallDistance:5": 0.0,
+            "SpawnedAsBoss:1": 0,
+            "InLove:3": 0,
+            "MinionIds:9": {},
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "TemporaryDuration:3": 0,
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "Items:9": {},
+            "id:8": "lycanitesmobs:cryptkeeper",
+            "DropsRequirePlayerDamage:1": 0,
+            "MobLevel:3": 1,
+            "Leashed:1": 0,
+            "HasBeenFarmed:1": 0,
+            "Color:1": 0,
+            "CreatureRelationships:9": {},
+            "Air:2": 300,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Experience:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stealth:5": 0.0,
+            "Drops:9": {},
+            "CanPickUpLoot:1": 0,
+            "ExtraBehaviour:10": {
+              "BoostPierce:3": 0,
+              "MultiplierSpeed:6": 1.0,
+              "BoostHaste:3": 0,
+              "FireImmunityOverride:1": 0,
+              "InventorySizeOverride:3": 0,
+              "BoostEffect:3": 0,
+              "AIAttackPlayers:1": 0,
+              "WaterBreathingOverride:1": 0,
+              "BoostDamage:3": 0,
+              "ItemDropMultiplierOverride:6": 1.0,
+              "BoostArmor:3": 0,
+              "AggressiveOverride:1": 0,
+              "MultiplierHealth:6": 1.0,
+              "BoostDefense:3": 0,
+              "BoostSpeed:3": 0,
+              "MultiplierHaste:6": 1.0,
+              "MultiplierDefense:6": 1.0,
+              "ItemPickupOverride:1": 0,
+              "MultiplierEffect:6": 1.0,
+              "FlightOverride:1": 0,
+              "StealthOverride:1": 0,
+              "AIDefendAnimals:1": 0,
+              "MultiplierArmor:6": 1.0,
+              "SwimmingOverride:1": 0,
+              "MultiplierPierce:6": 1.0,
+              "MultiplierDamage:6": 1.0,
+              "BoostHealth:3": 0
+            },
+            "HurtTime:2": 0,
+            "FallFlying:1": 0,
+            "SpawnEventCount:3": -1,
+            "PortalCooldown:3": 0,
+            "IsTemporary:1": 0,
+            "DeathTime:2": 0,
+            "FirstSpawn:1": 1,
+            "Age:3": 0,
+            "IsBoundPet:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "IsMinion:1": 0,
+            "SpawnEventType:8": "",
+            "UUIDLeast:4": -4996376066046720697,
+            "Health:5": 25.0,
+            "LeftHanded:1": 0,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.979942,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "UUIDMost:4": 4532653715195052419,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "lycanitesmobs:cryptkeeper",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        35
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:golden_apple",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Path to Legend III (Rogue)",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 100,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:golden_apple",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Path to Legend II (Rogue)",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "lycanitesmobs:raw_joust_meat",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Joust Pack",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Size:6": 1.0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.32,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.defense"
+              },
+              "8:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "9:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackSpeed"
+              },
+              "10:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.rangedSpeed"
+              }
+            },
+            "Invulnerable:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Subspecies:1": 0,
+            "ForceNoDespawn:1": 0,
+            "FallDistance:5": 0.0,
+            "SpawnedAsBoss:1": 0,
+            "InLove:3": 0,
+            "MinionIds:9": {},
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "TemporaryDuration:3": 0,
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "Items:9": {},
+            "id:8": "lycanitesmobs:joust",
+            "DropsRequirePlayerDamage:1": 0,
+            "MobLevel:3": 1,
+            "Leashed:1": 0,
+            "HasBeenFarmed:1": 0,
+            "Color:1": 0,
+            "CreatureRelationships:9": {},
+            "Air:2": 300,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Experience:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stealth:5": 0.0,
+            "Drops:9": {},
+            "CanPickUpLoot:1": 0,
+            "ExtraBehaviour:10": {
+              "BoostPierce:3": 0,
+              "MultiplierSpeed:6": 1.0,
+              "BoostHaste:3": 0,
+              "FireImmunityOverride:1": 0,
+              "InventorySizeOverride:3": 0,
+              "BoostEffect:3": 0,
+              "AIAttackPlayers:1": 0,
+              "WaterBreathingOverride:1": 0,
+              "BoostDamage:3": 0,
+              "ItemDropMultiplierOverride:6": 1.0,
+              "BoostArmor:3": 0,
+              "AggressiveOverride:1": 0,
+              "MultiplierHealth:6": 1.0,
+              "BoostDefense:3": 0,
+              "BoostSpeed:3": 0,
+              "MultiplierHaste:6": 1.0,
+              "MultiplierDefense:6": 1.0,
+              "ItemPickupOverride:1": 0,
+              "MultiplierEffect:6": 1.0,
+              "FlightOverride:1": 0,
+              "StealthOverride:1": 0,
+              "AIDefendAnimals:1": 0,
+              "MultiplierArmor:6": 1.0,
+              "SwimmingOverride:1": 0,
+              "MultiplierPierce:6": 1.0,
+              "MultiplierDamage:6": 1.0,
+              "BoostHealth:3": 0
+            },
+            "HurtTime:2": 0,
+            "FallFlying:1": 0,
+            "SpawnEventCount:3": -1,
+            "PortalCooldown:3": 0,
+            "IsTemporary:1": 0,
+            "DeathTime:2": 0,
+            "FirstSpawn:1": 1,
+            "Age:3": 0,
+            "IsBoundPet:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "IsMinion:1": 0,
+            "SpawnEventType:8": "",
+            "UUIDLeast:4": -6449872698373913983,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 3.7393587,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "UUIDMost:4": -7879220074353308835,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "lycanitesmobs:joust",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Size:6": 1.0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.32,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.defense"
+              },
+              "8:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "9:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackSpeed"
+              },
+              "10:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.rangedSpeed"
+              }
+            },
+            "Invulnerable:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Subspecies:1": 0,
+            "ForceNoDespawn:1": 0,
+            "FallDistance:5": 0.0,
+            "SpawnedAsBoss:1": 0,
+            "InLove:3": 0,
+            "MinionIds:9": {},
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "TemporaryDuration:3": 0,
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "Items:9": {},
+            "id:8": "lycanitesmobs:joustalpha",
+            "DropsRequirePlayerDamage:1": 0,
+            "MobLevel:3": 1,
+            "Leashed:1": 0,
+            "HasBeenFarmed:1": 0,
+            "Color:1": 0,
+            "CreatureRelationships:9": {},
+            "Air:2": 300,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Experience:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stealth:5": 0.0,
+            "Drops:9": {},
+            "CanPickUpLoot:1": 0,
+            "ExtraBehaviour:10": {
+              "BoostPierce:3": 0,
+              "MultiplierSpeed:6": 1.0,
+              "BoostHaste:3": 0,
+              "FireImmunityOverride:1": 0,
+              "InventorySizeOverride:3": 0,
+              "BoostEffect:3": 0,
+              "AIAttackPlayers:1": 0,
+              "WaterBreathingOverride:1": 0,
+              "BoostDamage:3": 0,
+              "ItemDropMultiplierOverride:6": 1.0,
+              "BoostArmor:3": 0,
+              "AggressiveOverride:1": 0,
+              "MultiplierHealth:6": 1.0,
+              "BoostDefense:3": 0,
+              "BoostSpeed:3": 0,
+              "MultiplierHaste:6": 1.0,
+              "MultiplierDefense:6": 1.0,
+              "ItemPickupOverride:1": 0,
+              "MultiplierEffect:6": 1.0,
+              "FlightOverride:1": 0,
+              "StealthOverride:1": 0,
+              "AIDefendAnimals:1": 0,
+              "MultiplierArmor:6": 1.0,
+              "SwimmingOverride:1": 0,
+              "MultiplierPierce:6": 1.0,
+              "MultiplierDamage:6": 1.0,
+              "BoostHealth:3": 0
+            },
+            "HurtTime:2": 0,
+            "FallFlying:1": 0,
+            "SpawnEventCount:3": -1,
+            "PortalCooldown:3": 0,
+            "IsTemporary:1": 0,
+            "DeathTime:2": 0,
+            "FirstSpawn:1": 1,
+            "Age:3": 0,
+            "IsBoundPet:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "IsMinion:1": 0,
+            "SpawnEventType:8": "",
+            "UUIDLeast:4": -5930804704531996655,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.9334803,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "UUIDMost:4": -4788747806486148738,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "lycanitesmobs:joustalpha",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "iceandfire:deathworm_chitin",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Crusk",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Passive:1": 0,
+            "Size:6": 1.0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.24,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.defense"
+              },
+              "8:10": {
+                "Base:6": 4.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "9:10": {
+                "Base:6": 0.5,
+                "Name:8": "generic.attackSpeed"
+              },
+              "10:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.rangedSpeed"
+              }
+            },
+            "Invulnerable:1": 0,
+            "PVP:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Subspecies:1": 0,
+            "ForceNoDespawn:1": 0,
+            "FallDistance:5": 0.0,
+            "SpawnedAsBoss:1": 0,
+            "InLove:3": 0,
+            "Aggressive:1": 1,
+            "MinionIds:9": {},
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "TemporaryDuration:3": 0,
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "Items:9": {},
+            "id:8": "lycanitesmobs:crusk",
+            "DropsRequirePlayerDamage:1": 0,
+            "MobLevel:3": 1,
+            "Leashed:1": 0,
+            "HasBeenFarmed:1": 0,
+            "Color:1": 0,
+            "CreatureRelationships:9": {},
+            "Air:2": 300,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Experience:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stealth:5": 0.0,
+            "Drops:9": {},
+            "CanPickUpLoot:1": 0,
+            "ExtraBehaviour:10": {
+              "BoostPierce:3": 0,
+              "MultiplierSpeed:6": 1.0,
+              "BoostHaste:3": 0,
+              "FireImmunityOverride:1": 0,
+              "InventorySizeOverride:3": 0,
+              "BoostEffect:3": 0,
+              "AIAttackPlayers:1": 0,
+              "WaterBreathingOverride:1": 0,
+              "BoostDamage:3": 0,
+              "ItemDropMultiplierOverride:6": 1.0,
+              "BoostArmor:3": 0,
+              "AggressiveOverride:1": 0,
+              "MultiplierHealth:6": 1.0,
+              "BoostDefense:3": 0,
+              "BoostSpeed:3": 0,
+              "MultiplierHaste:6": 1.0,
+              "MultiplierDefense:6": 1.0,
+              "ItemPickupOverride:1": 0,
+              "MultiplierEffect:6": 1.0,
+              "FlightOverride:1": 0,
+              "StealthOverride:1": 0,
+              "AIDefendAnimals:1": 0,
+              "MultiplierArmor:6": 1.0,
+              "SwimmingOverride:1": 0,
+              "MultiplierPierce:6": 1.0,
+              "MultiplierDamage:6": 1.0,
+              "BoostHealth:3": 0
+            },
+            "HurtTime:2": 0,
+            "Sitting:1": 0,
+            "FallFlying:1": 0,
+            "SpawnEventCount:3": -1,
+            "PortalCooldown:3": 0,
+            "IsTemporary:1": 0,
+            "Hunger:5": 20.0,
+            "DeathTime:2": 0,
+            "FirstSpawn:1": 1,
+            "Age:3": 0,
+            "IsBoundPet:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "IsMinion:1": 0,
+            "SpawnEventType:8": "",
+            "UUIDLeast:4": -5453770465741614740,
+            "Health:5": 40.0,
+            "Following:1": 0,
+            "LeftHanded:1": 0,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.2157992,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "Stamina:5": 100.0,
+            "UUIDMost:4": 1187634399014307021,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "lycanitesmobs:crusk",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [
+        35
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "iceandfire:deathworm_tounge",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Death Worm",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Sitting:1": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.15,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "iceandfire:deathworm",
+            "Age:3": 1,
+            "GrowthCounter:3": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -4775039096653632953,
+            "Health:5": 10.0,
+            "WillExplode:1": 0,
+            "LeftHanded:1": 0,
+            "Scale:5": 1.0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.352043,
+              "1:5": 0.0
+            },
+            "WormAge:3": 10,
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:3": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "OwnerUUID:8": "",
+            "UUIDMost:4": 2164820784218589993,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "WormHome:4": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 2,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:deathworm",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        35
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: OsVermis",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mod_lavacow:boneworm",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -9039265982996893920,
+            "Health:5": 32.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 5.8509774,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 8607274935659482348,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mod_lavacow:boneworm",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 15,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:golden_apple",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "I Am Legend (Rogue)",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 250,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mowziesmobs:barako_mask",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Barako Tribe",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 140.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.699999988079071,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 50.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mowziesmobs:barako",
+            "direction:3": 4,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5785163717844544374,
+            "Health:5": 140.0,
+            "players:9": {},
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 6.2530775,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -4237765980284763771,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mowziesmobs:barako",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.699999988079071,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "weapon:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mowziesmobs:barakoaya",
+            "mask:3": 3,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5113043130544831678,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 3.6669407,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "timeOffering:3": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -4901922673753570613,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "tradeStore:10": {
+              "trades:9": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mowziesmobs:barakoaya",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.699999988079071,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "weapon:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mowziesmobs:barakoaya",
+            "mask:3": 4,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8857860599619918245,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.5618677,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "timeOffering:3": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -6252268694346708407,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "tradeStore:10": {
+              "trades:9": {}
+            }
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mowziesmobs:barakoaya",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "42:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mod_lavacow:emblem_of_king",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Skeletal Dynasty",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 360.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.3,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 8.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "SpellTicks0:3": 0,
+            "SpellTicks1:3": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mod_lavacow:skeletonking",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -9208043084485250271,
+            "Health:5": 360.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 2.2368698,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 7255518117638786057,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mod_lavacow:skeletonking",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 30.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 4.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mod_lavacow:forsaken",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6624424021239545332,
+            "Health:5": 30.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.4325178,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 8740479455447369937,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 5,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mod_lavacow:forsaken",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:poison_tip_d",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "43:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mod_lavacow:dreamcatcher",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Avaton",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "NoGravity:1": 1,
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 30.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.175,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "mod_lavacow:avaton",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5685956291406583709,
+            "Health:5": 30.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 2.4243755,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -630220157629085559,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 2,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "mod_lavacow:avaton",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 30,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "44:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "iceandfire:myrmex_desert_egg",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Guild Bounty: Myrmex Hive",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.3,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 4.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_worker",
+            "GrowthStage:3": 2,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -9001216422949893603,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.9525796,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -1365787737410483016,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 3,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_worker",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.5,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "ReleaseTicks:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_swarmer",
+            "GrowthStage:3": 2,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "HiveTicks:3": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8390339929815901415,
+            "Health:5": 5.0,
+            "SummonTicks:3": 0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 3.1483064,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Flying:1": 0,
+            "UUIDMost:4": -7765632875016074702,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "SummonerUUID:8": "",
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 2,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_swarmer",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.35,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_soldier",
+            "GrowthStage:3": 2,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8723103487161929406,
+            "Health:5": 40.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.7697477,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 657376651012295614,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_soldier",
+          "subtypes:1": 1
+        },
+        "3:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 60.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.35,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 12.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 9.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Hiding:1": 0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_sentinel",
+            "GrowthStage:3": 2,
+            "DaylightTicks:3": 0,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6304505272443399154,
+            "Health:5": 60.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 3.6537774,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -1273106454075323598,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_sentinel",
+          "subtypes:1": 1
+        },
+        "4:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 50.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.3,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 9.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "ReleaseTicks:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_royal",
+            "GrowthStage:3": 2,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "HiveTicks:3": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8699083189853115078,
+            "Health:5": 50.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.206893,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Flying:1": 0,
+            "UUIDMost:4": 1365404716700551309,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_royal",
+          "subtypes:1": 1
+        },
+        "5:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 120.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.2,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 15.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 64.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 10.5,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Riches:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {
+                "mm:living:10": {
+                  "frozenYaw:5": 0.0,
+                  "freezeProgress:5": 0.0,
+                  "frozenPitch:5": 0.0,
+                  "prevHasAI:1": 0,
+                  "freezeDecayDelay:3": 0,
+                  "frozenYawHead:5": 0.0,
+                  "frozenLimbSwingAmount:5": 0.0,
+                  "frozenRenderYawOffset:5": 0.0,
+                  "frozenSwingProgress:5": 0.0
+                },
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "GrowthTicks:3": 1,
+            "id:8": "iceandfire:myrmex_queen",
+            "GrowthStage:3": 2,
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6768755236191339129,
+            "Health:5": 120.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 4.057278,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -8495073374526289057,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "EggTicks:3": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "MadeHome:1": 1,
+            "HurtTime:2": 0,
+            "CareerLevel:3": 0,
+            "Career:3": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "iceandfire:myrmex_queen",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:desert_xp",
+              "Count:3": 45,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -3811,6 +7648,104 @@
           "x:3": 0,
           "y:3": 0,
           "id:3": 9,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -60,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 0,
+          "id:3": 32,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": 60,
+          "id:3": 33,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 0,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 0,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -36,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 36,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": -36,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 36,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 0,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 0,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 348,
+          "y:3": 0,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 60,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": -60,
+          "id:3": 45,
           "sizeY:3": 24
         }
       },
@@ -3967,13 +7902,9 @@
           "visibility:8": "NORMAL",
           "name:8": "Hunter of the Plains and Trees",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "minecraft:sapling",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "byg:greatoaksapling"
-            },
-            "Damage:2": 0,
+            "Damage:2": 5,
             "OreDict:8": ""
           },
           "bg_image:8": "",
@@ -4075,7 +8006,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,

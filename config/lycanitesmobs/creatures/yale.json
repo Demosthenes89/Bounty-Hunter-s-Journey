@@ -1,12 +1,12 @@
 {
   "name": "yale",
-  "creatureType": "beast",
+  "creatureType": "aberration",
   "groups": [
     "animal"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityYale",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelYale",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -50,6 +50,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 5,
   "eggBackColor": "#FFEEAA",
   "eggForeColor": "#FFDD77",
   "subspecies": [

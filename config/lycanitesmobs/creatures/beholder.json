@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBeholder",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBeholder",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -49,6 +49,8 @@
   "pierce": 1,
   "sight": 32,
   "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "tamingReputation": 1000,
   "eggBackColor": "#442211",
   "eggForeColor": "#44AA33",
   "subspecies": [
@@ -69,7 +71,7 @@
     }
   ],
   "elements": [
-    "gravity",
+    "arcane",
     "void"
   ],
   "diets": [
@@ -81,9 +83,9 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
-  "mountable": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 8,
   "dungeonLevel": 2,
   "drops": [
@@ -123,7 +125,7 @@
   "flags": [
     {
       "name": "griefing",
-      "value": false
+      "value": true
     }
   ]
 }

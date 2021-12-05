@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBarghest",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -51,6 +51,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 250,
   "eggBackColor": "#D08237",
   "eggForeColor": "#00070A",
   "subspecies": [

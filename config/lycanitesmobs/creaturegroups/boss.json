@@ -1,6 +1,6 @@
 {
   "name": "boss",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid"
   ],

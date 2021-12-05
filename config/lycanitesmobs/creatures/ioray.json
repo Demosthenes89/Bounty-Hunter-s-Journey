@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIoray",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIoray",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "health": 20,
   "defense": 1,
   "armor": 0,
-  "speed": 36,
+  "speed": 42,
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 2,
@@ -50,6 +50,8 @@
   "pierce": 1,
   "sight": 32,
   "knockbackResistance": 0,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#5247ca",
   "eggForeColor": "#ccd6ec",
   "subspecies": [
@@ -75,8 +77,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": false,
-  "mountable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [

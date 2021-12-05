@@ -7,7 +7,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWendigo",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -55,6 +55,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 1,
+  "bagSize": 5,
   "eggBackColor": "#CCCCFF",
   "eggForeColor": "#0055FF",
   "subspecies": [

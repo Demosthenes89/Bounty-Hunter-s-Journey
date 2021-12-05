@@ -1,6 +1,6 @@
 {
   "name": "animal",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [],
   "pack": [],
   "wary": [],

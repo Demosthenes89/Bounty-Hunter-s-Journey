@@ -7,8 +7,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityShade",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelShade",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -47,6 +47,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.5,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#000402",
   "eggForeColor": "#102336",
   "subspecies": [

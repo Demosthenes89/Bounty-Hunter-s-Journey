@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWarg",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWarg",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -51,6 +51,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.5,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#321806",
   "eggForeColor": "#68523b",
   "subspecies": [
@@ -80,7 +82,7 @@
   "peaceful": false,
   "summonable": false,
   "tameable": true,
-  "mountable": false,
+  "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [

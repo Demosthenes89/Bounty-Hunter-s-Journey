@@ -1,13 +1,13 @@
 {
   "name": "khalk",
-  "creatureType": "beast",
+  "creatureType": "reptile",
   "groups": [
     "inferno"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
-  "loadDefault": false,
-  "enabled": false,
+  "loadDefault": true,
+  "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -46,6 +46,7 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 1,
+  "bagSize": 5,
   "eggBackColor": "#442200",
   "eggForeColor": "#FFAA22",
   "subspecies": [

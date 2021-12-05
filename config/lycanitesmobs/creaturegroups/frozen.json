@@ -1,6 +1,6 @@
 {
   "name": "frozen",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "humanoid",
     "inferno"

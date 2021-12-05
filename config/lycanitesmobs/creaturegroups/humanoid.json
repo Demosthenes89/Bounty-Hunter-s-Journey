@@ -1,6 +1,6 @@
 {
   "name": "humanoid",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [],
   "pack": [],
   "wary": [],

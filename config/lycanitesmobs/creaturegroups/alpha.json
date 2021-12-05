@@ -1,6 +1,6 @@
 {
   "name": "alpha",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "predator",
     "humanoid"

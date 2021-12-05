@@ -1,6 +1,6 @@
 {
   "name": "critter",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [],
   "pack": [],
   "wary": [],

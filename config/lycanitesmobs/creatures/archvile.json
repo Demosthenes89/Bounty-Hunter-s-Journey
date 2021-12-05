@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityArchvile",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelArchvile",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -89,7 +89,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 6,
+  "summonCost": 2,
   "dungeonLevel": 2,
   "drops": [
     {

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityPinky",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinky",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -54,6 +54,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "packSize": 1,
   "eggBackColor": "#FF0099",
   "eggForeColor": "#990000",
@@ -120,11 +122,11 @@
     "piscivore",
     "insectivore"
   ],
-  "peaceful": false,
-  "farmable": false,
+  "peaceful": true,
+  "farmable": true,
   "summonable": false,
-  "tameable": false,
-  "mountable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [

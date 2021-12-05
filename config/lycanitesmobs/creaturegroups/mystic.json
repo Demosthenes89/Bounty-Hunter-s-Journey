@@ -1,6 +1,6 @@
 {
   "name": "mystic",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [],
   "pack": [],
   "wary": [],

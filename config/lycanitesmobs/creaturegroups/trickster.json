@@ -1,6 +1,6 @@
 {
   "name": "trickster",
-  "loadDefault": false,
+  "loadDefault": true,
   "hunt": [
     "critter"
   ],

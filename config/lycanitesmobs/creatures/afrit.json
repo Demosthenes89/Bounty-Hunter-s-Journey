@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAfrit",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAfrit",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -14,13 +14,11 @@
       "lava"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      0, 1
-    ],
+    "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "nether"
+      "all"
     ],
     "spawnWeight": 8,
     "dungeonWeight": 200,
@@ -48,6 +46,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 250,
   "eggBackColor": "#110000",
   "eggForeColor": "#773300",
   "subspecies": [
@@ -77,10 +77,10 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
-  "perchable": false,
+  "perchable": true,
   "summonCost": 2,
   "dungeonLevel": 1,
   "drops": [

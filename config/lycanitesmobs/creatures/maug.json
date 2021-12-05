@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityMaug",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelMaug",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -53,6 +53,8 @@
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#c9cccd",
   "eggForeColor": "#52504e",
   "subspecies": [
@@ -79,8 +81,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": false,
-  "mountable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [
