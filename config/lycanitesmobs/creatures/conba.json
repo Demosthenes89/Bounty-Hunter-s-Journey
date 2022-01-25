@@ -7,8 +7,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityConba",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelConba",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [

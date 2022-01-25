@@ -1,0 +1,13 @@
+{
+    "desertSoldier1": {
+      "id": "iceandfire:myrmex_soldier",
+      "effects": [
+        {
+          "id": "minecraft:health_boost",
+          "duration": 100000,
+          "amplifier": 2,
+          "showParticles": false 
+        }
+      ]
+    }
+  }

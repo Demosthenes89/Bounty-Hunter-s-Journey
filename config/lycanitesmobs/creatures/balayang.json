@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBalayang",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBalayang",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [

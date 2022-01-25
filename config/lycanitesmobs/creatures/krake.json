@@ -8,8 +8,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKrake",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKrake",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [

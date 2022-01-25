@@ -1,0 +1,75 @@
+{
+    "desertArmy1": {
+      "selector": {
+        "weight": 100
+      },
+      "commands": {
+        "start": [
+          "/weather clear"
+        ],
+        "": {}
+      },
+      "name": "Desert Myrmex Army",
+      "messages": {
+        "start": "Myrmexes are burrowing out of the ground!",
+        "end": "The last bug has been squashed.",
+        "warn": {
+          "ticks": 12000,
+          "message": "You hear a horrid skittering in the distance."
+        }
+      },
+      "waves": [
+        {
+          "delayTicks": [
+            300,
+            450
+          ],
+          "groups": [
+            {
+              "weight": 100,
+              "forceSpawn": true,
+              "mobs": [
+                {
+                  "id": "desertSoldier1",
+                  "count": [
+                    3,
+                    5
+                  ],
+                  "spawn": {
+                    "type": "ground",
+                    "light": [
+                      0,
+                      15
+                    ],
+                    "rangeXZ": [
+                      16,
+                      32
+                    ],
+                    "rangeY": 16
+                  }
+                }
+              ],
+              "": {}
+            }
+          ],
+          "secondaryMob": [
+            {
+              "id": "desertSoldier1",
+              "spawn": {
+                "type": "ground",
+                "light": [
+                  0,
+                  15
+                ],
+                "rangeXZ": [
+                  16,
+                  48
+                ],
+                "rangeY": 32
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }

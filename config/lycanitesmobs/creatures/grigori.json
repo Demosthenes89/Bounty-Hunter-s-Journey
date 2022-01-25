@@ -7,8 +7,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrigori",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrigori",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [
