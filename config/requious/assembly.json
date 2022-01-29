@@ -1,0 +1,243 @@
+[
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "item_gate",
+    "model": "requious:assembly_block",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "laser",
+    "model": "requious:assembly_laser",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "assembler",
+    "model": "requious:assembly_slab",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "resourceName": "a_fresco_top1",
+    "model": "requious:a_fresco_top1",
+    "placeType": "HorizontalUp",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_top2",
+    "model": "requious:a_fresco_top2",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_top3",
+    "model": "requious:a_fresco_top3",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_top4",
+    "model": "requious:a_fresco_top4",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_bottom1",
+    "model": "requious:a_fresco_bottom1",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_bottom2",
+    "model": "requious:a_fresco_bottom2",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_bottom3",
+    "model": "requious:a_fresco_bottom3",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "a_fresco_bottom4",
+    "model": "requious:a_fresco_bottom4",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "dryer",
+    "model": "requious:dryer",
+    "placeType": "Horizontal",
+    "hasGUI": false,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  }
+]
