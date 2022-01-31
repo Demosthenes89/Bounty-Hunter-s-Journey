@@ -1,0 +1,36 @@
+Avatar of Life - Hippocampus
+	*Speeds up crop growth
+	*Provides regeneration
+Avatar of Strength - Hippogryph
+	*Provides Strength I?
+Avatar of Protection - Amphithere
+	*Provides Resistance I?
+
+Three classes?
+	Scholar
+		*Specialized class
+		*Water
+		*Ranger
+		*Rogue
+		*Potions
+	Warrior
+		*Light melee fighter
+		*Higher damage, lower health
+		*Damage bonuses
+	Protector
+		*Heavy melee fighter
+		*Higher health, lower damage
+		*Armor/Health Bonuses
+
+	Always have access to the lowest level of all classes weapons
+	-split knight/berserker weapons into lower damage and higher damage
+	-swordsperson to warrior
+	-combine ranger/rogue
+
+	add more magic items, possibly one for each enemy classification and one for each army
+	Lapis Shards - still mithril - Veriest
+	Strange Metal Shards - still adamantite - Cursed Ones
+	Strength Essence - still dragonbone - The Risen
+	Desert Essence - rename to enchanted stinger
+	Jungle Essence - remove
+	
