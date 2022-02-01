@@ -1,0 +1,306 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "replace_32c0355b",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d1",
+          "destination": [
+            {
+              "block": "minecraft:air",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_8e6cad41",
+          "data": {
+            "environmentMatcher": "!gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "naturalAir",
+                "transformer": {
+                  "id": "naturalAir_62f77b91",
+                  "sourceExpression": "reccomplex:generic_space \u0026 metadata\u003d1",
+                  "destExpression": "",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 10.0
+                }
+              },
+              {
+                "type": "natural",
+                "transformer": {
+                  "id": "natural_eed52750",
+                  "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d0",
+                  "destExpression": "is:replaceable | is:foliage",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 6.0
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_cd3733ca",
+          "data": {
+            "environmentMatcher": "gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "ensureBlocks",
+                "transformer": {
+                  "id": "ensureBlocks_6b500399",
+                  "sourceExpression": "!(id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid)",
+                  "destExpression": "is:air | is:leaves | is:replaceable"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "negativeSpace",
+        "transformer": {
+          "id": "negativeSpace_69ff30bc",
+          "sourceExpression": "id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid",
+          "destExpression": ""
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "a_fresco",
+          "data": {
+            "environmentMatcher": "",
+            "transformers": [
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "atop1",
+                  "sourceExpression": "minecraft:diamond_block",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 1,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stone_brick_stairs",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_top1",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "atop2",
+                  "sourceExpression": "minecraft:redstone_ore",
+                  "destinationPreset": "frescoGen",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 2,
+                      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+                    },
+                    {
+                      "block": "minecraft:stone_brick_stairs",
+                      "metadata": 0,
+                      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_top2",
+                      "metadata": 0,
+                      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "atop3",
+                  "sourceExpression": "minecraft:obsidian",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 2,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 1,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_top3",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "atop4",
+                  "sourceExpression": "minecraft:netherrack",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 2,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_top4",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "abottom1",
+                  "sourceExpression": "minecraft:diamond_ore",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 2,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 1,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_bottom1",
+                      "metadata": 2,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "abottom2",
+                  "sourceExpression": "minecraft:gold_block",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 1,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stone_brick_stairs",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_bottom2",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "abottom3",
+                  "sourceExpression": "minecraft:iron_block",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 1,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stone_brick_stairs",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_bottom3",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "replaceAll",
+                "transformer": {
+                  "uniform": false,
+                  "id": "abottom4",
+                  "sourceExpression": "minecraft:clay",
+                  "destination": [
+                    {
+                      "block": "minecraft:stonebrick",
+                      "metadata": 2,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "block": "minecraft:stone_brick_stairs",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    },
+                    {
+                      "weight": 0.4518207609653473,
+                      "block": "requious:a_fresco_bottom4",
+                      "metadata": 0,
+                      "tileEntity": "null"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Shrine",
+    "description": [
+      ""
+    ]
+  }
+}

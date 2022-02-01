@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "block": "minecraft:stonebrick",
+      "metadata": 2,
+      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+    },
+    {
+      "block": "minecraft:stone_brick_stairs",
+      "metadata": 0,
+      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+    },
+    {
+      "weight": 0.4518207609653473,
+      "block": "requious:a_fresco_top2",
+      "metadata": 0,
+      "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{}}"
+    }
+  ],
+  "metadata": {
+    "title": "Fresco",
+    "description": [
+      "for shrine frescos"
+    ]
+  }
+}
