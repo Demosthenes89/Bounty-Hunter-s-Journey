@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\oresources",
+    "\\oresources\\minecraft",
+    "\\oresources\\minecraft\\texts",
     "\\resources",
     "\\resources\\contenttweaker",
-    "\\resources\\contenttweaker\\textures",
-    "\\resources\\contenttweaker\\textures\\items",
     "\\scripts",
-    "\\scripts\\customitems"
+    "\\scripts\\customitems",
+    "\\scripts\\desertscripts"
   ],
-  "SelectedNode": "\\resources\\contenttweaker\\textures\\items\\strange_metal.png",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

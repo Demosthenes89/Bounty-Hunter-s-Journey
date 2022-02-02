@@ -9,7 +9,6 @@ Avatar of Protection - Amphithere
 Three classes?
 	Scholar
 		*Specialized class
-		*Water
 		*Ranger
 		*Rogue
 		*Potions
@@ -30,7 +29,18 @@ Three classes?
 	add more magic items, possibly one for each enemy classification and one for each army
 	Lapis Shards - still mithril - Veriest
 	Strange Metal Shards - still adamantite - Cursed Ones
-	Strength Essence - still dragonbone - The Risen
-	Desert Essence - rename to enchanted stinger
+	Strength Essence - rename to dragonbronze shards - The Risen
+	Desert Essence - rename to enchanted stinger - Mangaben
 	Jungle Essence - remove
-	
+	Xeros Stratos - Ancient Bones
+
+	Beasts - Wild Essence
+	Swimmers - Water Essence
+	Flyers - Flight Esscence
+
+	Beasts first, no invasions
+	Armies begin attacking in waves once every five days
+	After an army's defeat, those mobs begin to spawn
+	Two stages of each army, for a total of 10 invasions before late game
+	Damage and Health scaled with scaling health?
+	Heart Shards ---> Life Essence, used to upgrade gear
