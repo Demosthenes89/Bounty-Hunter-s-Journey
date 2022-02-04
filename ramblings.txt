@@ -22,7 +22,7 @@ Three classes?
 		*Armor/Health Bonuses
 
 	Always have access to the lowest level of all classes weapons
-	-split knight/berserker weapons into lower damage and higher damage
+	-split knight/berserker weapons into lower damage and higher damage - done
 	-swordsperson to warrior - done
 	-combine ranger/rogue - done
 

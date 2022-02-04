@@ -1,7 +1,12 @@
-mods.ItemStages.addItemStage("Scholar Novice", <ore:NoviceDesert>);
-mods.ItemStages.addItemStage("Scholar Apprentice", <ore:ApprenticeDesert>);
-mods.ItemStages.addItemStage("Scholar Master", <ore:MasterDesert>);
-mods.ItemStages.addItemStage("Scholar Legend", <ore:LegendDesert>);
+//mods.ItemStages.addItemStage("debugS", <ore:NoviceDesert>);
+//mods.ItemStages.addItemStage("debugS", <ore:ApprenticeDesert>);
+//mods.ItemStages.addItemStage("debugS", <ore:MasterDesert>);
+//mods.ItemStages.addItemStage("debugS", <ore:LegendDesert>);
+
+mods.ItemStages.addItemStage("Scholar_Novice", <ore:NoviceDesert>);
+mods.ItemStages.addItemStage("Scholar_Apprentice", <ore:ApprenticeDesert>);
+mods.ItemStages.addItemStage("Scholar_Master", <ore:MasterDesert>);
+mods.ItemStages.addItemStage("Scholar_Legend", <ore:LegendDesert>);
 
 mods.ItemStages.setUnfamiliarName("Novice Weapon", <ore:NoviceDesert>);
 mods.ItemStages.setUnfamiliarName("Apprentice Weapon", <ore:ApprenticeDesert>);
