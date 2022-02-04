@@ -23,8 +23,8 @@ Three classes?
 
 	Always have access to the lowest level of all classes weapons
 	-split knight/berserker weapons into lower damage and higher damage
-	-swordsperson to warrior
-	-combine ranger/rogue
+	-swordsperson to warrior - done
+	-combine ranger/rogue - done
 
 	add more magic items, possibly one for each enemy classification and one for each army
 	Lapis Shards - still mithril - Veriest
@@ -42,5 +42,4 @@ Three classes?
 	Armies begin attacking in waves once every five days
 	After an army's defeat, those mobs begin to spawn
 	Two stages of each army, for a total of 10 invasions before late game
-	Damage and Health scaled with scaling health?
-	Heart Shards ---> Life Essence, used to upgrade gear
+	
