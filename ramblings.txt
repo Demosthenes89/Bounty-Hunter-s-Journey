@@ -30,8 +30,8 @@ Three classes?
 	Lapis Shards - still mithril - Veriest
 	Strange Metal Shards - still adamantite - Cursed Ones
 	Strength Essence - rename to dragonbronze shards - The Risen
-	Desert Essence - rename to enchanted stinger - Mangaben
-	Jungle Essence - remove
+	Desert Essence - rename to enchanted stinger - Mangaben - done
+	Jungle Essence - remove - done
 	Xeros Stratos - Ancient Bones
 
 	Beasts - Wild Essence

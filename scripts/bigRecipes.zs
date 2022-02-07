@@ -6,14 +6,6 @@ mods.biggercraftingtables.Big.addShaped(<contenttweaker:poison_tip_d> * 8, [
 	[null, <iceandfire:myrmex_desert_chitin>, <minecraft:sand>, <iceandfire:myrmex_desert_chitin>, null]
 ]);
 
-mods.biggercraftingtables.Big.addShaped(<contenttweaker:poison_tip_j> * 8, [
-	[<contenttweaker:enchanting_scroll>, <iceandfire:myrmex_jungle_chitin>, <minecraft:leaves:3>, <iceandfire:myrmex_jungle_chitin>, null],
-	[<iceandfire:myrmex_jungle_chitin>, null, <minecraft:leaves:3>, null, <iceandfire:myrmex_jungle_chitin>],
-	[<minecraft:leaves:3>, <minecraft:leaves:3>, <iceandfire:myrmex_stinger>, <minecraft:leaves:3>, <minecraft:leaves:3>],
-	[<iceandfire:myrmex_jungle_chitin>, null, <minecraft:leaves:3>, null, <iceandfire:myrmex_jungle_chitin>],
-	[null, <iceandfire:myrmex_jungle_chitin>, <minecraft:leaves:3>, <iceandfire:myrmex_jungle_chitin>, null]
-]);
-
 mods.biggercraftingtables.Big.addShaped(<simpleores:mythril_ingot> * 8, [
 	[null, <minecraft:iron_ingot>, <iceandfire:silver_ingot>, <minecraft:iron_ingot>, null],
 	[<iceandfire:silver_ingot>, <contenttweaker:lapis_shards>, <contenttweaker:lapis_shards>, <contenttweaker:lapis_shards>, <iceandfire:silver_ingot>],
